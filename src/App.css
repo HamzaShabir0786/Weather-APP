@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(45deg, skyblue, pink);
+  background: linear-gradient(45deg, rgb(105, 98, 228), pink);
 }
 .box {
   background-color: skyblue;
