@@ -22,12 +22,17 @@ body {
   align-items: center;
   background: linear-gradient(45deg, skyblue, pink);
   overflow: hidden;
+  border: 3px solid red;
+  border-color: pink skyblue pink skyblue;
 }
 .box h1 {
-  background: linear-gradient(to bottom, rgb(11, 70, 93), pink);
+  background: linear-gradient(to bottom, rgb(9, 172, 242), rgb(207, 128, 141));
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+}
+.box h2 {
+  letter-spacing: 3px;
 }
 .inputFeild {
   background-color: rgb(163, 207, 225);
@@ -36,14 +41,18 @@ body {
   outline: none;
   border: none;
   margin-top: 2rem;
-  /* background: linear-gradient(45deg, pink, skyblue); */
 }
 .info {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-
   height: 50%;
   margin-top: 2rem;
+}
+.copyRight {
+  font-size: 0.7rem;
+}
+.errorMessage {
+  margin-top: 4rem;
 }
