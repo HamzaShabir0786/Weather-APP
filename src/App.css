@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: lightgray;
+  background: linear-gradient(45deg, skyblue, pink);
 }
 .box {
   background-color: skyblue;
@@ -55,4 +55,11 @@ body {
 }
 .errorMessage {
   margin-top: 4rem;
+}
+
+@media (width<400px) {
+  body {
+    align-items: start;
+    padding-top: 4rem;
+  }
 }
