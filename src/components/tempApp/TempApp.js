@@ -35,7 +35,9 @@ const TempApp = () => {
           ) : (
             <div className="info">
               <h2 className="location">
-                <i className="fa-solid fa-street-view">{search} </i>
+                <i>
+                  <span className="fa-solid fa-street-view"> </span> {search}
+                </i>
               </h2>
               <h3 className="temp">{city.temp}°Cel</h3>
               <h4 className="tempmin_max">
