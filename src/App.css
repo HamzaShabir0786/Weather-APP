@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bokor&family=Pirata+One&display=swap");
 * {
   padding: 0%;
   margin: 0%;
@@ -13,7 +14,7 @@ body {
 }
 .box {
   background-color: skyblue;
-  height: 20rem;
+  height: 25rem;
   width: 20rem;
   padding: 1rem;
   border-radius: 10px;
@@ -24,12 +25,17 @@ body {
   overflow: hidden;
   border: 3px solid red;
   border-color: pink skyblue pink skyblue;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 .box h1 {
-  background: linear-gradient(to bottom, rgb(9, 172, 242), rgb(207, 128, 141));
+  background: linear-gradient(to bottom, rgb(9, 172, 242), rgb(217, 132, 146));
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+
+  font-family: "Bokor", system-ui;
+  font-weight: 400;
 }
 .box h2 {
   letter-spacing: 3px;
@@ -51,7 +57,7 @@ body {
   margin-top: 2rem;
 }
 .copyRight {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 .errorMessage {
   margin-top: 4rem;
